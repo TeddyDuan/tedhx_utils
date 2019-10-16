@@ -1,0 +1,28 @@
+{
+  "name": "@tedhx/utils-logger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "TeddyDuan",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {},
+  "description": "logger utils for node.js only.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeddyDuan/tedhx_utils.git"
+  },
+  "keywords": [
+    "node.js",
+    "logger"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeddyDuan/tedhx_utils/issues"
+  },
+  "homepage": "https://github.com/TeddyDuan/tedhx_utils#readme"
+}

@@ -1,0 +1,42 @@
+.DS_Store
+node_modules
+
+# dev
+demo
+run
+
+# build
+build
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz
+
+# local env files
+.env.local
+.env.*.local
+
+# lock files
+*.lock
+
+# Log files
+log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#
+test

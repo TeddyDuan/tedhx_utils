@@ -1,0 +1,28 @@
+{
+  "LEVELS": {
+    "ERROR": {
+      "KEY": "error",
+      "VALUE": 0
+    },
+    "WARN": {
+      "KEY": "warn",
+      "VALUE": 1
+    },
+    "INFO": {
+      "KEY": "info",
+      "VALUE": 2
+    },
+    "VERBOSE": {
+      "KEY": "verbose",
+      "VALUE": 3
+    },
+    "DEBUG": {
+      "KEY": "debug",
+      "VALUE": 4
+    },
+    "SILLY": {
+      "KEY": "silly",
+      "VALUE": 5
+    }
+  }
+}
