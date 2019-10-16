@@ -1,0 +1,24 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "yarn",
+  "javascript.suggestionActions.enabled": false,
+  "prettier.disableLanguages": [],
+  "prettier.jsxBracketSameLine": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}
