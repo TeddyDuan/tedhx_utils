@@ -1,0 +1,13 @@
+{
+  "name": "@tedhx/utils-axios",
+  "version": "1.0.0",
+  "description": "axios二次封装: 基于promise, 浏览器端为XmlHttpRequest的封装, node端为http的封装",
+  "main": "dist/index.js",
+  "module": "index.js",
+  "author": "TeddyDuan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "qs": "^6.8.0"
+  }
+}
