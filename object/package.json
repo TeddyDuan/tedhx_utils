@@ -1,0 +1,20 @@
+{
+  "name": "@tedhx/utils-object",
+  "version": "1.0.0",
+  "description": "javascript对象处理工具类",
+  "main": "dist/index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TeddyDuan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeddyDuan/tedhx_utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TeddyDuan/tedhx_utils/issues"
+  },
+  "homepage": "https://github.com/TeddyDuan/tedhx_utils#readme"
+}
