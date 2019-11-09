@@ -150,7 +150,13 @@ export class Nxios {
 
       reqMethod
         .bind(this.axios)(url, data, config)
-        .then((res) => resolve(res.data))
+        .then((res) => {
+          if (res) {
+            if (res.data) return resolve(res.data);
+            return resolve(res);
+          }
+          return new Error('Empty response from server');
+        })
         .catch((err) => reject(err));
     });
   }
