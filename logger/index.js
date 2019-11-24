@@ -1,5 +1,5 @@
 const winstonBuilder = require('./winston/logger');
-const simpleLogger = require('./simple/Logger');
+const Coloring = require('./coloring/Coloring');
 
 exports.winstonBuilder = winstonBuilder;
-exports.simpleLogger = simpleLogger;
+exports.Coloring = Coloring;

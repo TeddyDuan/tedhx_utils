@@ -1,6 +1,6 @@
 {
   "name": "@tedhx/utils-logger",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "index.js",
   "author": "TeddyDuan",
   "dependencies": {

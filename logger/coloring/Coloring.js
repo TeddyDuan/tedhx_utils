@@ -15,14 +15,15 @@ const config = {
 
 colors.setTheme(config);
 
-class Logger {
+class Coloring {
   static do(action, msg) {
-    if (action && msg) console.log(colors[action].call(null, msg));
+    if (action && msg) return colors[action].call(null, msg);
+    return '';
   }
 }
 
 for (const action of Object.keys(config)) {
-  Logger[action] = (msg) => Logger.do(action, msg);
+  Coloring[action] = (msg) => Coloring.do(action, msg);
 }
 
-module.exports = Logger;
+module.exports = Coloring;
