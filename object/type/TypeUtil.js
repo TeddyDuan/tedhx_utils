@@ -34,6 +34,19 @@ const isDate = (obj) => isKindOf(obj, 'Date');
 const isRegExp = (obj) => isKindOf(obj, 'RegExp');
 const isFunction = (obj) => isKindOf(obj, 'Function');
 
+const isBlank = (obj) => {
+  if (isUndefined(obj)) return true;
+  if (isNull(obj)) return true;
+
+  if (isBoolean(obj)) return obj;
+
+  if (isString(obj)) return obj.trim() === '';
+  if (isObject(obj)) return Object.keys(obj).length === 0;
+  if (isArray(obj)) return obj.length === 0;
+
+  return false;
+};
+
 export {
   isUndefined,
   isNull,
@@ -46,4 +59,5 @@ export {
   isDate,
   isRegExp,
   isFunction,
+  isBlank,
 };
